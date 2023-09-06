@@ -1,0 +1,31 @@
+#me {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: me 10s ease infinite;
+}
+
+@keyframes me {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.image {
+    height: 15rem;
+    width: 25rem;
+    border-radius: 10px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
